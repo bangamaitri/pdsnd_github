@@ -181,7 +181,6 @@ def station_stats(df):
     print('Which is the most common end station?')
     popular_station = df['End Station'].mode()[0]
     print(popular_station)
-
     # TO DO: display most frequent combination of start station and end station trip
     print('Which is the most frequent combination of start station and end station trip')
     df['start_end'] = df['Start Station'].astype(str) + "and" + df['End Station'].astype(str)
@@ -278,12 +277,10 @@ def main():
                             if more_data == 'yes':
                                 print(rawdata[n:n+5])
                                 n=n+5
-                                
 
                             else:
                                 user_input = 'no'
                                 break
-
                     else:
                         print('Enter a valid city name')
                         continue
