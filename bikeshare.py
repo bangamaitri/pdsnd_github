@@ -278,7 +278,7 @@ def main():
                             if more_data == 'yes':
                                 print(rawdata[n:n+5])
                                 n=n+5
-                                continue
+                                
 
                             else:
                                 user_input = 'no'
