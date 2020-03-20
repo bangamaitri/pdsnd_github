@@ -38,7 +38,7 @@ def get_filters():
         try:
             time_filter = input('Would you like to filter the data by month, day or not at all? Type none for no time filter\n')
             if(time_filter.lower() == 'month'):
-                print('We will make sure to filter the data by month\n\n')
+                print('We will make sure to filter the data by month\n\n\n')
                 while True:
                     month = input('Which month? January, February, March, April, May or June? Please enter the whole name of the month\n')
                     if month.lower() not in ['january','february','march','april','may','june']:
@@ -71,9 +71,6 @@ def get_filters():
         except KeyboardInterrupt:
             print('Oops! You pressed some command on your keyboard')
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-
-
-
     print('-'*40)
     return city.lower(), month.lower(), day
 
