@@ -9,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def get_filters():
 
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks the user to specify a city, month, and day to analyze.
 
     Returns:
         (str) city - name of the city to analyze
@@ -80,14 +80,14 @@ def get_filters():
 
 def load_data(city, month, day):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified city and filters by month and day.
 
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
-        df - Pandas DataFrame containing city data filtered by month and day
+        df - Pandas DataFrame containing city data filtered by month and day.
     """
 
     # load data file into a dataframe
