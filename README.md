@@ -10,10 +10,10 @@ In this project, data related to bike share systems is explored for three major 
 ## Files Used:
 **bikeshare.py-**
 The python script that takes in raw input to create an interactive experience in the terminal to present the descriptive statistics about the data.
-## Dara Files
+## Data Files
 3 separate files for data of each city (i.e. New York, Chicago and Washington)
 
 ## List of Software Required:
-Python 3, NumPy, and pandas installed using **Anaconda**
-**Text editor** - Sublime or Atom
-**Terminal application** - (Terminal on Mac and Linux or Cygwin on Windows)
+> Python 3, NumPy, and pandas installed using **Anaconda**  
+> **Text editor** - Sublime or Atom  
+> **Terminal application** - (Terminal on Mac and Linux or Cygwin on Windows)  
